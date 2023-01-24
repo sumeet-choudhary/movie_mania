@@ -1,0 +1,65 @@
+#movies img, #movie img{
+  width:100%;
+}
+
+@media(min-width:960px){
+  #movies .col-md-3 .well{
+    height: 440px;
+  }
+
+  #movies .col-md-3 img{
+    height:300px;
+  }
+}
+
+.btn.btn-success{
+	margin-left: 10px;
+}
+
+li strong{
+	color: white;
+}
+
+.navbar.navbar-expand-lg.navbar-dark.bg-primary{
+	margin-bottom: 1.5%;
+}
+
+#searchText{
+	margin: auto;
+	margin-bottom: 1.2%;
+}
+
+#submit-button{
+	display: block;
+	margin: auto;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("http://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .jumbotron{
+	background: none;
+	background-size: cover;
+	height: 100vh;
+	margin: auto;
+	padding-top: 10%;
+}
+
+h3.text-center{
+	color: #2A9FD6;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Movie Mania</title>
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" type="image/ico" href="https://png.icons8.com/ios/50/000000/retro-tv-filled.png">
+</head>
+<body>
+
+	<div class="bg">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"><i class="fas fa-film"></i> Movie Mania</a>
+        </div>
+      </div>
+    </nav>
+	<h3 class="text-center">Movie Mania</h3>
+
+    <div class="container">
+    	<div class="jumbotron">
+	    	<h2 class="text-center" style="margin-bottom: 15px;">Search For Any Movie</h2>
+	    	<form id="searchForm">
+	    		<input type="text" class="form-control col-md-6" id="searchText" placeholder="Search Movies...">
+	    		<button class="btn btn-primary down" id="submit-button">Search <i class="fas fa-search"></i></button>
+	    	</form>
+	    </div>
+    </div>
+
+    <div class="container">
+      <div id="movies" class="row up"></div>
+    </div>
+    </div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
